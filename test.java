@@ -3,7 +3,7 @@ public class HardcodedSecretsExample {
     private static final String DB_USERNAME = "admin";
     private static final String DB_PASSWORD = "P@ssw0rd123"; // Vulnerability: Hardcoded password
 
-    // Hardcoded API Key (Bad Practice)
+    // Hardcoded API Key 
     private static final String API_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"; // Vulnerability: Hardcoded API key
 
     public static void main(String[] args) {
